@@ -267,8 +267,8 @@ body {
     width: 1200px;
   }
 }
-.carousel .left-button,
-.carousel .right-button {
+.carousel .carousel__button--prev,
+.carousel .carousel__button--next {
   display: flex;
   justify-content: center;
   align-items: none;
@@ -282,23 +282,22 @@ body {
   height: 50px;
   cursor: pointer;
 }
-.carousel .left-button:hover,
-.carousel .right-button:hover {
+.carousel .carousel__button--prev:hover,
+.carousel .carousel__button--next:hover {
   color: #333;
   background-color: #fff;
   border: 2px solid #333;
 }
-.carousel .left-button {
+.carousel .carousel__button--prev {
   top: 50%;
   left: 25px;
   transform: translate(0, -50%);
 }
-.carousel .right-button {
+.carousel .carousel__button--next {
   top: 50%;
   right: 25px;
   transform: translate(0, -50%);
 }
 .carousel img {
   width: 100%;
-  display: none;
 }
